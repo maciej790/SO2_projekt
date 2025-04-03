@@ -1,4 +1,4 @@
-# Problem Filozofów - mutexy
+# Problem Filozofów - Mutexy
 
 ## Opis
 Ten projekt implementuje klasyczny **Problem Filozofów przy Kolacji** z wykorzystaniem **SpinLock** zaimplementowanego za pomocą `std::mutex` w C++. Program symuluje filozofów, którzy na przemian **myślą** i **jedzą**, zapewniając poprawne pobieranie i zwalnianie widelców, aby uniknąć zakleszczeń i warunków wyścigu.
