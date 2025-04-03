@@ -21,6 +21,6 @@ Ten projekt implementuje klasyczny **Problem Filozofów przy Kolacji** z wykorzy
 - System Linux np. Ubuntu
 
 ## Instalacja i Kompilacja
-$ g++ -std=c++11 philosophers.cpp -o philosophers -pthread
+$ g++ -std=c++11 projekt_1.cpp -o projekt_1 -pthread
 
 
