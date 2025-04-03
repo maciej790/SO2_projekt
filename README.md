@@ -20,7 +20,8 @@ Ten projekt implementuje klasyczny **Problem Filozofów przy Kolacji** z wykorzy
 - Kompilator C++ np. gcc
 - System Linux np. Ubuntu
 
-## Instalacja i Kompilacja
+## Kompilacja i uruchomienie
 $ g++ -std=c++11 projekt_1.cpp -o projekt_1 -pthread
+$ ./projekt_1
 
 
