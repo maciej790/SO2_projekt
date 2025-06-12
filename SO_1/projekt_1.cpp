@@ -87,13 +87,12 @@ int main()
         philosophers[i] = thread(philosopher_task, i);
     }
 
-    // Join philosopher threads
     for (int i = 0; i < philosopher_count; ++i)
     {
         philosophers[i].join();
     }
 
-    // Free allocated memory
+    // Free memory
     delete[] chopsticks;
     delete[] philosophers;
     return 0;
